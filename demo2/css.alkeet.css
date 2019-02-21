@@ -1,0 +1,64 @@
+h1 {
+    color: salmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th {
+    color: blueviolet;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: separate;
+    background:aqua;
+}
+
+h1.header {
+    color: paleturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#basicinfo, #topten, #data {
+    width: 33%;
+    height: auto;
+    background-color: royalblue;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#header {
+    background-color: royalblue;
+    border-radius: 25px;
+    border-style: solid;
+    padding: 10px 15px;
+}
+
+.navbar {
+    display:flex;
+    list-style-type: none;
+}
+
+.navbutton {
+    display: inline-block;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    text-decoration: none;
+}

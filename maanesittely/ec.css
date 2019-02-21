@@ -1,0 +1,67 @@
+h1 {
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    color: darkgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("img/tausta2.jpg")
+}
+
+table {
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbutton {
+    display: inline-block;
+    padding: 12px;
+    background-color: white;
+    border-width: 2px;
+    border-style: hidden;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#main {
+    display: flex;
+    align-items: flex-start;
+}
+
+#kuviaec, #tekstiä {
+    width: 70%;
+    height: auto;
+    background-color:white;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
